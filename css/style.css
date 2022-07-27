@@ -1,0 +1,7 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.page-title, .recipe-list {
+    text-align: center;
+}
