@@ -5,3 +5,12 @@
 .page-title, .recipe-list {
     text-align: center;
 }
+
+img {
+    height: auto;
+    width: 300px;
+}
+
+.recipe-title {
+    text-align: center;
+}
