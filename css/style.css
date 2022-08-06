@@ -2,17 +2,25 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+body {
+    margin: 0 auto;
+}
 .page-title, .recipe-list {
     text-align: center;
 }
 
 img {
     height: auto;
-    width: 300px;
+    width: 400px;
 }
 
 .recipe-title {
     text-align: center;
+}
+
+ul, ol {
+    margin: 0 auto;
+    padding: 0;
 }
 
 .recipe-list {
@@ -20,7 +28,16 @@ img {
     display: flex;
     gap: 30px;
     font-size: 26px;
-    margin: 0 auto;
-    padding: 0;
     justify-content: space-around;
 }
+
+.content {
+    display: flex;
+    padding: 40px 200px;
+    gap: 25%;
+}
+
+h2 {
+    margin: 25px auto 10px auto;
+}
+
