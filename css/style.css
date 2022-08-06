@@ -14,3 +14,13 @@ img {
 .recipe-title {
     text-align: center;
 }
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 26px;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-around;
+}
